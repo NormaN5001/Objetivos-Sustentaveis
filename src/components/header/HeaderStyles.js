@@ -9,6 +9,7 @@ export const HeaderSection = styled.section`
 `
 
 export const TitleHeader = styled.h1`
+  margin-top: 10px;
   text-align: center;
   color: #181818;
   font-size: 2.7rem;

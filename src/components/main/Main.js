@@ -13,7 +13,6 @@ import PageCard5 from '../routes/pages/economy/PageCard'
 
 
 import {BrowserRouter as Router, Link, Routes, Route} from 'react-router-dom'
-import AppRouter from '../routes/AppRouter'
 
 export default function Main(){
 
