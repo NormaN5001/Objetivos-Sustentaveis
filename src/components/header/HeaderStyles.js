@@ -1,13 +1,10 @@
 import styled from 'styled-components'
 
 export const HeaderSection = styled.section`
-  border: solid;
-  height: 230px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   span{
-    color: darkblue;
+    color: #00008b;
   }
 `
 
@@ -18,6 +15,7 @@ export const TitleHeader = styled.h1`
   
 `
 export const AboutText = styled.p`
+  margin-top: 50px;
   font-size: 1.4rem;
-
+  text-align: center;
 `

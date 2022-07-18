@@ -1,13 +1,19 @@
 import React from 'react'
 import * as S from './MainStyles'
-import Cards from './cards/Card'
-import InfosCard from './cards/InfoCards'
-
+import CardOne from './cards/CardOne'
+import CardTwo from './cards/CardTwo'
+import CardThree from './cards/CardThree'
+import CardFour from './cards/CardFour'
+import CardFive from './cards/CardFive'
 export default function Main(){
 
   return(
     <S.MainSection>
-      <Cards/>
+      <CardOne/>
+      <CardTwo/>
+      <CardThree/>
+      <CardFour/>
+      <CardFive/>
     </S.MainSection>
   )
 }
