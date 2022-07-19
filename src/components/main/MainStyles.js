@@ -5,4 +5,5 @@ export const MainSection = styled.section`
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 `

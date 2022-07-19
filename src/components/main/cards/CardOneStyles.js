@@ -11,6 +11,7 @@ export const CardDiv = styled.div`
     color: #FFF;
     font-size: 3rem;
     position: absolute;
+    left: 3px;
   }
   h3{
     color: #FFF;

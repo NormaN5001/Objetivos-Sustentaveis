@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const CardDiv = styled.div`
-	background-color: darkcyan;
+	background-color: #055864;
   width: 170px;
   height: 170px;
   position: relative;
@@ -11,6 +11,7 @@ export const CardDiv = styled.div`
     color: #FFF;
     font-size: 3rem;
     position: absolute;
+    left: 5px;
   }
   h3{
     color: #FFF;

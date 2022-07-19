@@ -11,6 +11,7 @@ export const CardDiv = styled.div`
     color: #FFF;
     font-size: 3rem;
     position: absolute;
+    left: 4px;
   }
   h3{
     color: #FFF;
@@ -18,7 +19,7 @@ export const CardDiv = styled.div`
     text-transform: uppercase;
     position: absolute;
     top: 22px;
-    left: 30px;
+    left: 33px;
   }
   img{
     width: 100px;
