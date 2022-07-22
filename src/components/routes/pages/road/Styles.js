@@ -17,7 +17,6 @@ export const Page = styled.section`
   flex-direction: column;
 `
 export const Content = styled.div`
-  border: solid;
   width: 100%;
   height: 60vh;
   background-color: #21A179;
@@ -47,7 +46,6 @@ export const Image = styled.img`
   margin-right: 50px;
 `
 export const Goals = styled.div`
-  border: solid;
   width: 100%;
   height: 400px;
   margin-top: 80px;

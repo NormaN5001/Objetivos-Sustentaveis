@@ -11,6 +11,9 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
 `
 const Container = styled.section`
   margin: 0 10vw 0 10vw;

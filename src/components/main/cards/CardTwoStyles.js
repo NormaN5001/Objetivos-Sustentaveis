@@ -9,16 +9,16 @@ export const CardDiv = styled.div`
 
   h2{
     color: #FFF;
-    font-size: 3rem;
+    font-size: 2.5rem;
     position: absolute;
     left: 4px;
   }
   h3{
     color: #FFF;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     position: absolute;
-    top: 22px;
+    top: 15px;
     left: 33px;
   }
   img{

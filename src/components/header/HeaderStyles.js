@@ -12,11 +12,11 @@ export const TitleHeader = styled.h1`
   margin-top: 10px;
   text-align: center;
   color: #181818;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   
 `
 export const AboutText = styled.p`
-  margin-top: 50px;
+  margin-top: 70px;
   font-size: 1.4rem;
   text-align: center;
 `
