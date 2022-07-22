@@ -8,20 +8,23 @@ export const Container = styled.section`
   height: 80vh;
   background-color: #FFF;
 `
+export const Page = styled.section`
+  margin: 0 10vw 0 10vw;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+`
 export const Content = styled.div`
   width: 100%;
+  height: 60vh;
+  background-color: #055864;
   display: flex;
   justify-content: space-between;
   align-items: center;
 `
-export const Page = styled.section`
-  margin: 0 10vw 0 10vw;
-  background-color: #055864;
-  width: 80vw;
-  height: 60vh;
-  display: flex;
-  align-items: center;
-`
+
 export const Texts = styled.div`
   margin-left: 20px;
 `
@@ -41,4 +44,22 @@ export const Title = styled.h1`
 export const Image = styled.img`
   width: 30%;
   margin-right: 50px;
+`
+export const Goals = styled.div`
+  width: 100%;
+  height: 400px;
+  margin-top: 80px;
+  background-color: #FFF;
+`
+export const SubTitle = styled.p`
+  font-size: 1.5rem;
+  font-weight: 700;
+`
+export const TopicOne = styled.p`
+  margin-top: 30px;
+  font-size: 1.2rem;
+`
+export const TopicTwo = styled.p`
+  margin-top: 30px;
+  font-size: 1.2rem;
 `
