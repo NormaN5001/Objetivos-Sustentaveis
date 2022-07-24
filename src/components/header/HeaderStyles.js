@@ -13,7 +13,12 @@ export const TitleHeader = styled.h1`
   text-align: center;
   color: #181818;
   font-size: 2.5rem;
-  
+  @media(max-width: 768px){
+    font-size: 2rem;
+  }
+  @media(max-width: 500px){
+    font-size: 1.5rem;
+  }
 `
 export const AboutText = styled.p`
   margin-top: 70px;

@@ -16,6 +16,9 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 const Container = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 10vw 0 10vw;
   @media(max-width: 1100px){
     margin: 0;

@@ -7,6 +7,12 @@ export const Container = styled.section`
   width: 100%;
   height: 80vh;
   background-color: #FFF;
+  @media(max-width: 950px){
+    height: 120vh;
+  }
+  @media(max-width: 731px){
+    height: 100vh;
+  }
 `
 export const Page = styled.section`
   margin: 0 10vw 0 10vw;
@@ -48,6 +54,9 @@ export const Title = styled.h1`
 export const Image = styled.img`
   width: 30%;
   margin-right: 50px;
+  @media(max-width: 768px){
+    display: none;
+  }
 `
 export const Goals = styled.div`
   width: 100%;
@@ -79,4 +88,10 @@ export const Button = styled.button`
   font-weight: 600;
   color: #FFF;
   cursor: pointer;
+  @media(max-width: 950px){
+    margin-top: 11vh;
+  }
+  @media(max-width: 731px){
+    display: none;
+  }
 `
