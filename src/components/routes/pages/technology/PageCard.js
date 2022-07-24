@@ -20,6 +20,9 @@ export default function CardPage(){
           <S.TopicOne>1- Instalações de torres para todas as operadoras.</S.TopicOne>
           <S.TopicTwo>2- Suporte para os provedores de internet implementarem fibra óptica</S.TopicTwo>
         </S.Goals>
+        <S.LinkVoltar href="/">
+          <S.Button>Voltar</S.Button>
+        </S.LinkVoltar>
       </S.Page>
     </S.Container>
   )

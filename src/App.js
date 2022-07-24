@@ -17,6 +17,9 @@ const GlobalStyle = createGlobalStyle`
 `
 const Container = styled.section`
   margin: 0 10vw 0 10vw;
+  @media(max-width: 1100px){
+    margin: 0;
+  }
 `
 
   return(

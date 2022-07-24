@@ -15,6 +15,10 @@ export const Page = styled.section`
   align-items: center;
   display: flex;
   flex-direction: column;
+  @media(max-width: 1100px){
+    margin: 0;
+    width: 100%;
+  }
 `
 export const Content = styled.div`
   width: 100%;
@@ -47,7 +51,7 @@ export const Image = styled.img`
 `
 export const Goals = styled.div`
   width: 100%;
-  height: 400px;
+  height: 270px;
   margin-top: 80px;
   background-color: #FFF;
 `
@@ -62,4 +66,17 @@ export const TopicOne = styled.p`
 export const TopicTwo = styled.p`
   margin-top: 30px;
   font-size: 1.2rem;
+`
+export const LinkVoltar = styled.a`
+  width: 100%;
+`
+export const Button = styled.button`
+  width: 100%;
+  height: 70px;
+  border-style: none;
+  background-color: darkblue;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #FFF;
+  cursor: pointer;
 `

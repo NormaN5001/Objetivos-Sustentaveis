@@ -20,6 +20,9 @@ export default function CardPage(){
           <S.TopicOne>1- Equipamentos para os profissionais, para que possam dar o seu melhor.</S.TopicOne>
           <S.TopicTwo>2- Uma estrutura melhor para o atendimento da população. Atualmente casos mais complicados, o paciente é levado para a cidade mais próxima. (15km)</S.TopicTwo>
         </S.Goals>
+        <S.LinkVoltar href="/">
+          <S.Button>Voltar</S.Button>
+        </S.LinkVoltar>
       </S.Page>
     </S.Container>
   )
